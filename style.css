@@ -1,23 +1,21 @@
-body {
-	background: #1690A7;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
-	flex-direction: column;
+body{display: flex;flex-direction:row-reverse;justify-content:center;align-items: center;flex-wrap:wrap}
+:root{
+    --form-padding: 1.5rem;
+    --form-margin: 2rem
 }
-
 *{
 	font-family: sans-serif;
 	box-sizing: border-box;
 }
 
 form {
-	width: 500px;
-	border: 2px solid #ccc;
-	padding: 30px;
-	background: #fff;
-	border-radius: 15px;
+	max-width: 45vw;height: 90vh;
+	background-color: #fff;
+	padding: var(--form-padding);
+	margin: var(--form-margin);
+	display: flex;
+	justify-content: center;align-items: center;flex-direction: column;
+	overflow-y: scroll
 }
 
 h2 {
@@ -78,14 +76,12 @@ a {
 a:hover{
 	opacity: .7;
 }
-.money{
-    display: block;
-    margin: 0 auto;
-    width: 500px
+.money {
+	max-width: 40vw;height: 40vh;
+	margin-top: var(--form-margin)
 }
-.money img{
-    object-fit: cover
-}
+.money img {object-fit:cover}
+form h2{margin-top: var(--form-margin)}
 
 
 * {box-sizing: border-box}
