@@ -1,4 +1,5 @@
-body{display: flex;flex-direction:row-reverse;justify-content:center;align-items: center;flex-wrap:wrap}
+body{display: flex;flex-direction:row-reverse;justify-content:center;
+align-items: center;flex-wrap:wrap}
 :root{
     --form-padding: 1.5rem;
     --form-margin: 2rem
